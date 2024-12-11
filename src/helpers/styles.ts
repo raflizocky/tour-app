@@ -106,4 +106,88 @@ export const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#111827',
   },
+
+  // tour - modal
+  modal: {
+    justifyContent: 'center',
+    margin: 0,
+  },
+  modalContent: {
+    backgroundColor: 'white',
+    padding: 25,
+    borderRadius: 20,
+    borderColor: 'rgba(0, 0, 0, 0.1)',
+    marginHorizontal: 20,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  modalTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 15,
+    color: '#333',
+  },
+  modalText: {
+    textAlign: 'center',
+    marginBottom: 20,
+    color: '#666',
+    fontSize: 16,
+  },
+  button: {
+    backgroundColor: '#FF6B6B',
+    paddingVertical: 12,
+    paddingHorizontal: 25,
+    borderRadius: 25,
+    marginHorizontal: 10,
+    elevation: 3,
+    width: '100%',
+  },
+  buttonText: {
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  illustrationContainerModal: {
+    width: 70,
+    height: 70,
+    marginBottom: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  // bottom bar tour - tooltip component
+  tooltipTitleBB: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    marginBottom: 5,
+    color: '#010101',
+  },
+  tooltipTextBB: {
+    fontSize: 14,
+    marginBottom: 10,
+    color: '#010101',
+  },
+  buttonContainerBB: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  buttonBB: {
+    paddingVertical: 8,
+    paddingHorizontal: 15,
+    backgroundColor: '#FF0000',
+    borderRadius: 10,
+    marginTop: 10,
+    marginBottom: 5,
+  },
+  buttonTextBB: {
+    color: '#fff',
+    fontSize: 14,
+  },
 });
