@@ -1,9 +1,9 @@
 import React from 'react';
-import {Navigation} from './src/helpers/Navigation';
+import {Navigation} from '@/helpers/Navigation';
 import AppContent from './src/AppContent';
 import {CopilotProvider} from 'react-native-copilot';
-import {BBSvgPath} from './src/helpers/svgMaskPaths';
-import {BBTooltipComponent} from './src/helpers/TooltipComponent';
+import {BBSvgPath} from '@/helpers/svgMaskPaths';
+import {BBTooltipComponent} from '@/helpers/TooltipComponent';
 
 const App = () => {
   return (
