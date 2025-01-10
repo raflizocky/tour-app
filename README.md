@@ -38,4 +38,4 @@ If you encounter any issues or would like to contribute to the project, feel fre
 
 ## License
 
-Code released under the [MIT License](https://github.com/raflizocky/tour-app/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/raflizocky/tour-app/blob/master/LICENSE.txt).
