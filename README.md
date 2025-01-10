@@ -10,6 +10,7 @@
 
 ## Download
 
+- Min. Android version: Android 6.0 Marshmallow (API level 23)
 - Download: [APK](https://github.com/raflizocky/tour-app/releases/download/v1.0.0/app-release.apk)
 
 ## Building
